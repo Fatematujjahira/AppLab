@@ -1,0 +1,154 @@
+/* =============
+common style
+============== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+*,
+::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* ============
+  header sstyle
+  ============= */
+.header{
+    background-color: #f9fbfc;
+    
+}
+.inner_header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+}
+.logo_area{
+width: 120px;
+}
+.logo_area img{
+width: 100%;
+}
+
+.menu ul{
+display: flex;
+align-items: center;
+}
+.menu ul li{
+padding: 0 18px;
+
+}
+.menu ul li a{
+    font-size: 16px;
+    line-height: 44px;
+    color: #242f51;
+    font-weight: 400;
+    transition: 0.6s;
+
+}
+.menu ul li a:hover{
+color: red;
+}
+.trail_btn{
+ width: 170px;
+height: 57px;
+border-radius: 29px;
+background-color: #0a2264;
+border: 2px solid rgba(255, 217, 0, 0.932);
+outline: none;
+font-size: 16px;
+line-height: 44px;
+color: #ffffff;
+font-weight: 700;
+}
+.demo_btn{
+ width: 170px;
+height: 57px;
+border-radius: 29px;
+border: none;
+background-color: #dceef5;
+outline: none;
+font-size: 16px;
+line-height: 44px;
+color: #0a2264;
+font-weight: 700;
+}
+.trail_btn:hover{
+  background-color: rgba(34, 111, 173, 0.87);
+  border: 2px solid  #0a2264;
+  transition: 0.5s;
+}
+/* banner */
+.banner {
+  background-image: url(./image/hero.png);
+  display: flex;
+}
+.banner-left{
+  margin-top: 130px;
+  padding: 50px;
+}
+.title{
+  max-width: 360px;
+  height: 35px;
+  border-radius: 16px;
+  background-color: #d8e3e7;
+  margin-bottom: 15px;
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  
+}
+i.far.fa-check-circle {
+  width: 39px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #feaa25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 12px;
+}
+.fa-check-circle {
+  border-radius: 1px solid rgb(253, 247, 247) !important;
+}
+.banner-left h1 {
+  font-size: 60px;
+  line-height: 75px;
+  color: #242f51;
+  font-weight: 600;
+}
+.banner-left p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #616368;
+  font-weight: 400;
+  padding: 30px 0px;
+}
+.banner-right {
+  max-width: 360px;
+}
+.banner-right img{
+width: 100%;
+margin-left: 70px;
+}
