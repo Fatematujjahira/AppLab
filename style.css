@@ -77,14 +77,19 @@ header{
     width: 170px;
     height: 57px;
     border-radius: 29px;
-    background-color: #2500f9;
-    border: none;
+    background-color: #140664;
+    border: 2px solid rgb(255, 235, 50);
     outline: none;
     font-size: 16px;
     line-height: 44px;
     color: #ffffff;
     font-weight: 700;
     cursor: pointer;   
+}
+.trail_btn:hover{
+  background-color: rgb(74, 118, 250);
+  border: 2px solid rgb(23, 55, 116);
+  transition: 0.7s;
 }
 
 /*=================
