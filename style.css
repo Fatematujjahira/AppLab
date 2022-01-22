@@ -175,10 +175,10 @@ header{
     Company CSS 
 ===================*/
 .inner_company{
-   /* margin: 115px 0; */
+   
 }
 .inner_company{
-    padding: 115px 0;
+    padding: 110px 0;
 }
 .inner_company h6{
     font-size: 16px;
@@ -208,7 +208,7 @@ header{
     min-height: 760px;
     margin-top: 60px;
 }
-.feature_apps{
+.feature_main_div{
     max-width: 446px;
     margin-left: auto;
 }
@@ -276,7 +276,7 @@ header{
     margin-top: 130px;
 }
 .jackport_title{
-    border-right: 1px solid  #4b4a48;
+    border-right: 1px solid  #a5a5a4;
 }
 .title_one{
     max-width: 487px;
@@ -297,14 +297,15 @@ header{
     font-weight: 400;
 }
 /*=================
-    Network CSS 
+   jackpot CSS 
 ===================*/
 .inner_jackpot-2{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     margin-top: 120px;
 }
+
 .inner_jackpot-2 div{
    max-width: 264px;
 }
@@ -347,10 +348,11 @@ header{
     background-image: url('./image/jackpot/banner-3.png');
     background-position: 5% bottom;
     background-repeat: no-repeat;
-    background-size: contain;
     min-height: 550px;
     min-width: 594px;
     margin-top: 116px;
+    background-size: contain;
+   
 }
 .integration_field{
     max-width: 410px;
@@ -601,8 +603,9 @@ font-weight: 400;
 
 .pricing_cls_content h1{
     font-size: 60px;
-    line-height: 58px;
     color: #242f51;
+    line-height: 58px;
+   
     font-weight: 600;
     text-align: center;
 }
@@ -803,7 +806,7 @@ font-weight: 400;
     width: 1px;
     height: 25px;
     background-color: #e7e7e7;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #c4c4c4;
     margin: 0 5px;
 }
 .ceo_btn .right_arrow{

@@ -1,5 +1,5 @@
 
-/* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (max-width: 992px) {
     #menu_toggler{
         display: block;
@@ -28,7 +28,7 @@
         padding: 0 15px;
         
     }
-    .feature_apps{
+    .feature_main_div{
         margin: auto;
     }
     #integration{
@@ -258,9 +258,9 @@
         width: 79px;
     }
     #location {
-        background-image: linear-gradient(50deg, rgba(105, 250, 255, 0.315), rgba(255, 255, 255, 0.322)), url('./images/app-location-bg.png');
+        background-image: linear-gradient(50deg, rgba(140, 218, 221, 0.315), rgba(255, 255, 255, 0.322)), url('./images/app-location-bg.png');
         background-position: right bottom;
-        min-width: 408px;
+        min-width: 410px;
     }
     .download_title {
        margin: auto;
