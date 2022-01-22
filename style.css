@@ -832,7 +832,6 @@ ser vice css
 #client {
   background-image: url('./image/client-bg.png');
   background-repeat: no-repeat;
-  background-position: 5% bottom;
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 550px;
