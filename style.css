@@ -911,7 +911,7 @@ ser vice css
   align-items: center;
 }
 
-.ceo_btn .left_arrow {
+.ceo_btn .left {
   width: 50px;
   height: 50px;
   border-radius: 25px;
@@ -928,7 +928,7 @@ ser vice css
   margin: 0 5px;
 }
 
-.ceo_btn .right_arrow {
+.ceo_btn .right {
   width: 50px;
   height: 50px;
   border-radius: 25px;
@@ -937,20 +937,20 @@ ser vice css
   cursor: pointer;
 }
 
-.ceo_btn .left_arrow i {
+.ceo_btn .left i {
   font-size: 18px;
   line-height: 58px;
   color: #dee1e6;
 
 }
 
-.ceo_btn .left_arrow i {
+.ceo_btn .left i {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.ceo_btn .right_arrow i {
+.ceo_btn .right i {
   font-size: 18px;
   line-height: 58px;
   color: #2500f9;
@@ -979,9 +979,9 @@ ser vice css
 }
 
 /*======================
-    Location CSS 
+    download section CSS 
 ========================*/
-#location {
+#download {
   background-image: url('./image/download.png');
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -1024,14 +1024,15 @@ ser vice css
 }
 
 .footer_area {
-  padding-top: 113px;
+  padding-top: 105px;
 }
 
 .footer_menu ul {
-  display: inline;
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: inline;
+  display: flex;
+
 }
 
 .footer_menu ul li {
@@ -1073,10 +1074,11 @@ ser vice css
 }
 
 .inner_footer p {
-  font-size: 14px;
-  line-height: 44px;
-  color: #5d6985;
   font-weight: 400;
   text-align: center;
   padding-top: 90px;
+  font-size: 14px;
+  line-height: 44px;
+  color: #5d6985;
+
 }

@@ -52,6 +52,12 @@
         margin-right: 0;
     }
 
+    .service-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
     #planning {
         background-image: none;
     }
@@ -150,15 +156,12 @@
         background-image: none;
     }
 
-    #location {
-        background-image: linear-gradient(50deg, rgba(127, 181, 252, 0.315), rgba(151, 242, 245, 0.322)), url('./images/app-location-bg.png');
-        /* background-position: right bottom;
-        min-width: 415px; */
+    #download {
+        background-image: linear-gradient(50deg, rgba(127, 181, 252, 0.315), rgba(151, 242, 245, 0.322)), url('./image/download.png');
+
     }
 }
 
-
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 570px) {
     .banner_text h6 {
         max-width: 362px;
@@ -285,9 +288,9 @@
     }
 
     #client {
-        background-image: linear-gradient(50deg, rgba(105, 250, 255, 0.315), rgba(255, 255, 255, 0.322)), url('./images/client-bg.png');
+        background-image: linear-gradient(50deg, rgba(105, 250, 255, 0.315), rgba(255, 255, 255, 0.322)), url('./image/download.png');
         background-position: center;
-        min-width: 408px;
+        min-width: 390px;
     }
 
     .client_parent .title_field h1 {
@@ -313,11 +316,11 @@
     }
 
     .main_ceo img {
-        width: 79px;
+        width: 80px;
     }
 
-    #location {
-        background-image: linear-gradient(50deg, rgba(140, 218, 221, 0.315), rgba(255, 255, 255, 0.322)), url('./images/app-location-bg.png');
+    #download {
+        background-image: linear-gradient(50deg, rgba(140, 168, 221, 0.315), rgba(255, 255, 255, 0.322)), url('./image/download.png');
         background-position: right bottom;
         min-width: 410px;
     }
